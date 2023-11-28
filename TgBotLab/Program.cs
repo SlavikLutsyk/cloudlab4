@@ -12,7 +12,7 @@ namespace TgBotLab
     {
         static void Main(string[] args)
         {
-            var client = new TelegramBotClient("6572657698:AAGHh16WvARCXJi5UiPdzkuZB01dDdJxUR4");
+            var client = new TelegramBotClient("6983227901:AAEEFyU46zFQF1WLcR5l99BBHk4Wim_tfRE");
             client.StartReceiving(Update, Error);
             Console.ReadLine();
         }
